@@ -16,10 +16,11 @@ export const AppContextProvider = ({ children }) => {
     const [searchQuery, setSearchQuery] = useState(""); // Initialize as empty string for consistency
 
     const navigate = useNavigate();
-
+    
+    const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:4000"; // Use environment variable or default
     // Axios instance for API calls
     const apiClient = axios.create({
-        baseURL: "http://localhost:4000", // Ensure this matches your backend URL
+        baseURL: BACKEND_URL, // Ensure this matches your backend URL
         withCredentials: true, // Important for sending cookies like sellerToken
     });
 
