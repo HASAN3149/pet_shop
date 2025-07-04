@@ -24,7 +24,7 @@ const port=process.env.PORT ||4000;
 await connectDB();
 await connectCloudinary()
 
-const allowedOrigins=['http://localhost:5173']
+const allowedOrigins=['http://localhost:5173','https://pet-shop-k5zp.vercel.app']
 
 // Stripe webhook must come *before* express.json() because it needs the raw body
 app.post("/stripe",express.raw({type:"application/json"}),stripeWebhooks)
