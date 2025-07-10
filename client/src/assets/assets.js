@@ -103,37 +103,37 @@ export const assets = {
 export const categories = [
   {
     text: "Dog Breeds",
-    path: "Vegetables",
+    path: "Dogs",
     image: organic_vegitable_image,
     bgColor: "#FEF6DA",
   },
   {
     text: "Bird Breed",
-    path: "Fruits",
+    path: "Birds",
     image: fresh_fruits_image,
     bgColor: "#FEE0E0",
   },
   {
     text: "Fish Breed",
-    path: "Drinks",
+    path: "Fish",
     image: bottles_image,
     bgColor: "#F0F5DE",
   },
   {
     text: "Snake Breed",
-    path: "Instant",
+    path: "Snakes",
     image: maggi_image,
     bgColor: "#E1F5EC",
   },
   {
     text: "Cat Breed",
-    path: "Dairy",
+    path: "Cats",
     image: dairy_product_image,
     bgColor: "#FEE6CD",
   },
   {
     text: "Pet Food",
-    path: "Bakery",
+    path: "Pet Food",
     image: bakery_image,
     bgColor: "#E0F6FE",
   },
